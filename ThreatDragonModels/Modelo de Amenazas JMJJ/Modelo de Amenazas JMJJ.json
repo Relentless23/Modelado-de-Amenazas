@@ -1,0 +1,30 @@
+{
+  "version": "2.6.0",
+  "summary": {
+    "title": "Modelo de Amenazas JMJJ",
+    "owner": "Jose Martin Julajuj Jom",
+    "description": "Aplicación web que permite a usuarios interactuar mediante un navegador con un backend en Python a través de un API Gateway. \nEl sistema procesa datos científicos, interactúa con aplicaciones externas y envía correos mediante un servidor SMTP.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Jose Martin"
+      }
+    ],
+    "diagrams": [
+      {
+        "id": 1,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 2,
+    "reviewer": "CiberCenter",
+    "threatTop": 0
+  }
+}
