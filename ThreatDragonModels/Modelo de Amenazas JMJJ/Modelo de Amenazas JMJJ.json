@@ -1288,16 +1288,60 @@
             "labels": [
               "Internet\nBoundary"
             ],
-            "id": "64ee52ff-2528-456f-af5e-7ee9890eabe2",
+            "id": "fcb7eb42-624d-4229-95bf-09ad4a666508",
             "source": {
-              "x": -2290,
-              "y": 790
+              "x": -2280,
+              "y": 800
             },
             "target": {
-              "x": -2290,
-              "y": 1280
+              "x": -2280,
+              "y": 1290
             },
-            "vertices": []
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
+            }
           }
         ]
       }
