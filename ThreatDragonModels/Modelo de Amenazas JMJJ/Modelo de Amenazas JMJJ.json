@@ -140,8 +140,8 @@
           },
           {
             "position": {
-              "x": -2490,
-              "y": 1070
+              "x": -2405,
+              "y": 1000
             },
             "size": {
               "width": 120,
@@ -260,8 +260,8 @@
           },
           {
             "position": {
-              "x": -2341,
-              "y": 945
+              "x": -2260,
+              "y": 910
             },
             "size": {
               "width": 110,
@@ -380,8 +380,8 @@
           },
           {
             "position": {
-              "x": -2285,
-              "y": 1070
+              "x": -2240,
+              "y": 1085
             },
             "size": {
               "width": 90,
@@ -988,8 +988,8 @@
           },
           {
             "position": {
-              "x": -2672.5,
-              "y": 1112
+              "x": -2552.5,
+              "y": 1090
             },
             "size": {
               "width": 110,
@@ -1269,6 +1269,35 @@
               "privilegeLevel": "",
               "threats": []
             }
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 12,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Internet\nBoundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false,
+              "crossingFlows": [],
+              "containedElements": []
+            },
+            "labels": [
+              "Internet\nBoundary"
+            ],
+            "id": "64ee52ff-2528-456f-af5e-7ee9890eabe2",
+            "source": {
+              "x": -2290,
+              "y": 790
+            },
+            "target": {
+              "x": -2290,
+              "y": 1280
+            },
+            "vertices": []
           }
         ]
       }
