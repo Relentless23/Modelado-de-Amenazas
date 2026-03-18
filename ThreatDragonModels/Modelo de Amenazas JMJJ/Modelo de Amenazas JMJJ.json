@@ -2214,8 +2214,8 @@
             ],
             "id": "d553f9f6-3a23-41ca-936e-b3954e026948",
             "source": {
-              "x": -2060,
-              "y": 1130
+              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
+              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
             },
             "target": {
               "cell": "b5f9088e-fee0-4782-8d47-a969def8f22c",
@@ -2266,13 +2266,19 @@
             ],
             "id": "1fa06eca-8efe-41f5-8651-43ebbe19218c",
             "source": {
-              "x": -1960,
-              "y": 1030
+              "cell": "b5f9088e-fee0-4782-8d47-a969def8f22c",
+              "port": "c70c42ae-d8b8-4781-93ef-594e3edebafd"
             },
             "target": {
-              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
-              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
-            }
+              "cell": "c12def7d-650d-4c9a-88a4-36b8afd9c126",
+              "port": "7606fb84-ea0b-4a89-abad-e19a538be306"
+            },
+            "vertices": [
+              {
+                "x": -2060,
+                "y": 980
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2312,37 +2318,12 @@
             ],
             "id": "70d7faab-fabf-4085-80d1-2fa8deed7e92",
             "source": {
-              "x": -1910,
-              "y": 1130
+              "x": -1850,
+              "y": 1090
             },
             "target": {
-              "x": -1850,
-              "y": 1110
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead",
-                "boundary",
-                "button-remove",
-                "vertices",
-                "source-arrowhead",
-                "target-arrowhead"
-              ],
-              "name": null
+              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
+              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
             }
           }
         ]
