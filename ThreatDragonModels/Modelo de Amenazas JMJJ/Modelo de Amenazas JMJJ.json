@@ -152,8 +152,8 @@
                 "text": "API \nGateway"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -250,12 +250,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "8f54eab6-1020-4606-9bd1-b68112ef2bf5",
+                  "title": "API GateWay",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "Un atacante puede saturar el API Gateway con múltiples solicitudes, causando indisponibilidad del servicio.",
+                  "mitigation": "Implementar rate limiting, firewall de aplicaciones web (WAF) y monitoreo de tráfico.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "4c20ffc6-9730-4304-9d7b-968c391816c3",
+                  "title": "API Gateway",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "description": "Manipulación de solicitudes o parámetros enviados al backend, alterando el comportamiento del sistema.",
+                  "mitigation": "Validación estricta de entradas, sanitización de datos y uso de tokens firmados.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -272,8 +307,8 @@
                 "text": "Python \nBack End"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -370,12 +405,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "115c76d3-4f8f-40bc-a835-d4d481e056da",
+                  "title": "Python Back End",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Elevation of privilege",
+                  "description": "Un usuario podría explotar vulnerabilidades para obtener privilegios administrativos dentro del sistema.",
+                  "mitigation": "Implementar control de acceso basado en roles (RBAC) y validación de permisos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "c47c620f-2496-4139-9df6-5ca69b89abd0",
+                  "title": "Injection",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Inyección de código (SQL, comandos, etc.) a través de entradas no validadas.",
+                  "mitigation": "Uso de consultas parametrizadas, validación de entradas y frameworks seguros.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 1
+              }
             }
           },
           {
@@ -392,8 +462,8 @@
                 "text": "Data\nprocessor"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -490,12 +560,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "9a585f27-e519-4ef2-bdff-9e9fcdbe0ad6",
+                  "title": "Data Processor",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Alteración de los datos durante el procesamiento, generando resultados incorrectos.",
+                  "mitigation": "Validación de integridad de datos y uso de controles de checksum o hashing.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "17b332cf-5d6f-460d-b2e6-f09da1eb137c",
+                  "title": "Data Processor",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Falta de registros que permitan identificar quién realizó cambios o procesos en los datos.",
+                  "mitigation": "Falta de registros que permitan identificar quién realizó cambios o procesos en los datos.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -632,8 +737,8 @@
                 "text": "Emailer\nProcess"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -730,12 +835,54 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "b545eb9e-0d21-4b95-94de-9319037e1574",
+                  "title": "Emailer Process",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Envío de correos falsificados aparentando ser del sistema, afectando la confianza del usuario.",
+                  "mitigation": "Implementar SPF, DKIM y DMARC.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "cc0837bf-c946-47fa-9f34-2feaeeb72b7a",
+                  "title": "Emailer Process",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Exposición de información sensible en correos electrónicos no cifrados.",
+                  "mitigation": "Uso de cifrado en correos y evitar incluir datos sensibles.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -1989,8 +2136,8 @@
                 "text": "Web \nBrowser"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2087,12 +2234,47 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "dfb88d39-023d-4139-8cae-eb93fd440339",
+                  "title": "Information Disclosure",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Un atacante puede interceptar la comunicación entre el navegador y el sistema si no se utiliza cifrado, exponiendo datos sensibles como credenciales o información personal.",
+                  "mitigation": "Un atacante puede interceptar la comunicación entre el navegador y el sistema si no se utiliza cifrado, exponiendo datos sensibles como credenciales o información personal.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "1182b1be-6fce-451f-bffd-1f88ccb26ad8",
+                  "title": "Web Browser",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Un atacante puede crear una página falsa (phishing) para engañar al usuario y robar credenciales.",
+                  "mitigation": "Uso de autenticación multifactor (MFA), educación del usuario y validación de dominios.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 2,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -2331,6 +2513,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "CiberCenter",
-    "threatTop": 0
+    "threatTop": 10
   }
 }
