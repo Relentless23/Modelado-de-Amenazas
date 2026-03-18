@@ -14,8 +14,8 @@
     ],
     "diagrams": [
       {
-        "id": 1,
-        "title": "New STRIDE diagram",
+        "id": 2,
+        "title": "Diagrama Aplicación Web JMJJ",
         "diagramType": "STRIDE",
         "placeholder": "New STRIDE diagram description",
         "thumbnail": "./public/content/images/thumbnail.stride.jpg",
@@ -23,7 +23,7 @@
         "cells": []
       }
     ],
-    "diagramTop": 2,
+    "diagramTop": 3,
     "reviewer": "CiberCenter",
     "threatTop": 0
   }
