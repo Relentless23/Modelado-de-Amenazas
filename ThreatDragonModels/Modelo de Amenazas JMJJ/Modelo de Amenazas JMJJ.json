@@ -740,8 +740,8 @@
           },
           {
             "position": {
-              "x": -1960,
-              "y": 1000
+              "x": -1910,
+              "y": 990
             },
             "size": {
               "width": 120,
@@ -1976,52 +1976,6 @@
             }
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              ""
-            ],
-            "id": "1fa06eca-8efe-41f5-8651-43ebbe19218c",
-            "source": {
-              "x": -1960,
-              "y": 1060
-            },
-            "target": {
-              "x": -2150,
-              "y": 1020
-            }
-          },
-          {
             "position": {
               "x": -2510,
               "y": 895
@@ -2260,8 +2214,8 @@
             ],
             "id": "d553f9f6-3a23-41ca-936e-b3954e026948",
             "source": {
-              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
-              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
+              "x": -2060,
+              "y": 1130
             },
             "target": {
               "cell": "b5f9088e-fee0-4782-8d47-a969def8f22c",
@@ -2290,7 +2244,53 @@
             },
             "width": 200,
             "height": 100,
-            "zIndex": 17,
+            "zIndex": 18,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              ""
+            ],
+            "id": "1fa06eca-8efe-41f5-8651-43ebbe19218c",
+            "source": {
+              "x": -1960,
+              "y": 1030
+            },
+            "target": {
+              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
+              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 19,
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
@@ -2312,12 +2312,37 @@
             ],
             "id": "70d7faab-fabf-4085-80d1-2fa8deed7e92",
             "source": {
-              "x": -2000,
-              "y": 1070
+              "x": -1910,
+              "y": 1130
             },
             "target": {
-              "cell": "cb9d331f-fd78-41f7-bdd6-02d0bbc578d3",
-              "port": "7f4fae9d-7e6b-4a9a-bacf-737dff6adbd4"
+              "x": -1850,
+              "y": 1110
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead",
+                "boundary",
+                "button-remove",
+                "vertices",
+                "source-arrowhead",
+                "target-arrowhead"
+              ],
+              "name": null
             }
           }
         ]
